@@ -1,0 +1,17 @@
+Call Center Analytics 
+Table Information 
+id --> Unique id for each calls (Primary key)
+2. Customer_name -> Names of customers that called 
+3. sentiment -> Tone of the conversation (5 uniques)
+4. csat_score -> Customer Satisfaction score (1-10)
+5. call_timestamp -> Call date
+6. reason -> Call purpose (3 uniques) 
+7. city -> customers' city (geographic data)
+8. state -> customers' state
+9. call_channel -> call medium (4 uniques)
+10. call_duration_in_minutes -> How long was each call 	(recorded in minutes)
+11. call_center -> Location of call center (geographic 	data)
+
+
+SLA meanings Service Level Agreement
+80/20 SLA means that 80% of all calls should be answered between 20 seconds.

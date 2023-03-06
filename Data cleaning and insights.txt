@@ -1,0 +1,37 @@
+Cleaning
+How do we handle the cast_score null values?
+1. Use mean, median or mode?
+2. Convert to zero?
+
+We will be using mode because CSAT scores contains categorical values
+We will be also be using mode alongside sentiments
+So we will get the mode value for each sentiment
+
+Checked for outliers in the numeric columns
+
+Insights -> Thinsg to check
+1. Customers most common sentiment (sentiment count)
+2. Average csat score 
+4. Average csat score per reason
+5. Count of sentiments per reason(tableau)
+6. City per call count
+7. response time count
+8. count of response time per sentiment
+9. How many users use your different channels
+10. What channel has the most dissapointed and 	fufilled customers(channel per ratings)
+11. Sentiments of customers per channel (tableau)
+12. Cal center with the fastest response time
+13. most received channel per call center
+14. call center per average call duration
+
+
+Tableau
+What are the main insights to show on tableau
+There is a reason filter and a date filter
+1. Customers sentiment 
+2. How effective are the response times for each call channel?
+3. Call center locations (csat_scores, most common sentiment)
+4. 
+
+
+
